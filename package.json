@@ -1,0 +1,14 @@
+{
+  "name": "astro-module-html",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "prepare": "node .task/prepare.js"
+  },
+  "dependencies": {
+    "@csstools/tokenizer": "3.0.0",
+    "astro": "0.19.1"
+  }
+}

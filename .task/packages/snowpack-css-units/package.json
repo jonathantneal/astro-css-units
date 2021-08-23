@@ -1,0 +1,8 @@
+{
+  "name": "snowpack-css-units",
+  "type": "commonjs",
+  "dependencies": {
+    "@csstools/tokenizer": "3.0.0"
+  },
+  "private": true
+}

@@ -1,0 +1,31 @@
+@import url("https://unpkg.com/sanitize.css");
+
+html {
+	--scale: 18rx;
+}
+
+body {
+	font-size: 20rx;
+	line-height: calc(30 / 20);
+}
+
+h1 {
+	font-size: 3em;
+	line-height: calc(80 / 60);
+	margin-block: 0.5em 0;
+}
+
+img.scale1 {
+	width: 1--scale;
+	height: 1--scale;
+}
+
+img.scale2 {
+	width: 2--scale;
+	height: 2--scale;
+}
+
+img.scale3 {
+	width: 3--scale;
+	height: 3--scale;
+}
